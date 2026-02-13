@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { organizationService } from '../services/api';
-import { CreateOrganizationInput, UpdateOrganizationInput } from '../types';
+import type { CreateOrganizationInput, UpdateOrganizationInput } from '../types';
 
 export const useOrganizations = () => {
   return useQuery({

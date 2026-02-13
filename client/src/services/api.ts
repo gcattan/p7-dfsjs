@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {
+import type {
   Organization,
   Contact,
   CreateOrganizationInput,
